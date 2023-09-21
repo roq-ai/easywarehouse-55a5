@@ -1,0 +1,2222 @@
+[
+  {
+    "item": [
+      {
+        "id": "3adf6f8b-1c6e-46f1-81c6-80f14a962bb6",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 3515,
+        "sale_price": 1444,
+        "quantity": 63782,
+        "created_at": "2023-09-20T17:11:06.138Z",
+        "updated_at": "2023-09-21T07:36:30.394Z"
+      },
+      {
+        "id": "7847ebed-5f03-48cb-9498-9e6f3e5497a5",
+        "name": "Product B",
+        "category": "Clothing",
+        "purchase_price": 6581,
+        "sale_price": 62412,
+        "quantity": 63304,
+        "created_at": "2023-09-20T21:37:41.938Z",
+        "updated_at": "2023-09-20T14:26:08.886Z"
+      },
+      {
+        "id": "429843bf-e5b4-4531-8905-261a34856c75",
+        "name": "Product C",
+        "category": "Home Decor",
+        "purchase_price": 9470,
+        "sale_price": 38555,
+        "quantity": 28691,
+        "created_at": "2023-09-20T13:14:29.887Z",
+        "updated_at": "2023-09-21T10:06:18.250Z"
+      },
+      {
+        "id": "724ece38-c6e8-4cf3-b858-c62a6ac0a0ca",
+        "name": "Product D",
+        "category": "Sports Equipment",
+        "purchase_price": 70329,
+        "sale_price": 36648,
+        "quantity": 23149,
+        "created_at": "2023-09-21T08:52:04.941Z",
+        "updated_at": "2023-09-20T20:59:45.565Z"
+      },
+      {
+        "id": "19842c33-ad98-4dab-81eb-c21d8670873c",
+        "name": "Product E",
+        "category": "Books",
+        "purchase_price": 74579,
+        "sale_price": 12073,
+        "quantity": 60434,
+        "created_at": "2023-09-21T00:58:15.230Z",
+        "updated_at": "2023-09-21T05:26:08.060Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "105fe7ca-f6c1-481a-90b7-e94c1bb2480b",
+        "name": "Basket 1",
+        "description": "A basket filled with goodies",
+        "created_at": "2023-09-21T12:24:03.416Z",
+        "updated_at": "2023-09-20T20:38:30.118Z"
+      },
+      {
+        "id": "3422d977-5e8f-4cd1-8511-561eabfde3b7",
+        "name": "Basket 2",
+        "description": "A basket for special occasions",
+        "created_at": "2023-09-20T19:25:10.307Z",
+        "updated_at": "2023-09-21T06:48:13.245Z"
+      },
+      {
+        "id": "41dc7e3e-f25e-4142-8ea9-03bbee32bd26",
+        "name": "Basket 3",
+        "description": "A basket of surprises",
+        "created_at": "2023-09-21T02:15:16.722Z",
+        "updated_at": "2023-09-21T03:22:18.256Z"
+      },
+      {
+        "id": "0a697fb3-77b0-4680-bc9b-7f3b24e6d87b",
+        "name": "Basket 4",
+        "description": "A basket to brighten your day",
+        "created_at": "2023-09-21T00:16:31.595Z",
+        "updated_at": "2023-09-20T15:43:54.356Z"
+      },
+      {
+        "id": "757d2ea6-7d07-4b8f-996e-8aef55975296",
+        "name": "Basket 5",
+        "description": "A basket to indulge in",
+        "created_at": "2023-09-21T06:27:33.606Z",
+        "updated_at": "2023-09-21T07:23:29.678Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "197f4548-b109-4376-b7f5-a43deb1d1e14",
+        "total_price": 25637,
+        "created_at": "2023-09-21T09:19:33.533Z",
+        "updated_at": "2023-09-20T20:20:04.124Z",
+        "basket_id": "757d2ea6-7d07-4b8f-996e-8aef55975296",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0806578b-a1fb-4a8c-b980-96f40b3fe40f",
+        "total_price": 68942,
+        "created_at": "2023-09-20T20:56:00.634Z",
+        "updated_at": "2023-09-20T17:27:02.150Z",
+        "basket_id": "105fe7ca-f6c1-481a-90b7-e94c1bb2480b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c3ff074-928e-4bf2-971b-c6bf1f91d58a",
+        "total_price": 14758,
+        "created_at": "2023-09-20T17:43:34.653Z",
+        "updated_at": "2023-09-21T08:30:05.556Z",
+        "basket_id": "757d2ea6-7d07-4b8f-996e-8aef55975296",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9874d85a-b546-4596-95d2-e8d2fae4afa4",
+        "total_price": 15676,
+        "created_at": "2023-09-20T13:23:39.622Z",
+        "updated_at": "2023-09-21T04:29:53.908Z",
+        "basket_id": "0a697fb3-77b0-4680-bc9b-7f3b24e6d87b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1bc4393-c483-4a27-8b63-117756c11a99",
+        "total_price": 68695,
+        "created_at": "2023-09-21T12:16:48.372Z",
+        "updated_at": "2023-09-21T00:37:22.432Z",
+        "basket_id": "0a697fb3-77b0-4680-bc9b-7f3b24e6d87b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "7dde6a01-d405-4c62-b2a8-5e3cb80fc20a",
+        "quantity": 14830,
+        "created_at": "2023-09-21T08:05:53.355Z",
+        "updated_at": "2023-09-20T22:15:30.577Z",
+        "basket_id": "105fe7ca-f6c1-481a-90b7-e94c1bb2480b",
+        "item_id": "19842c33-ad98-4dab-81eb-c21d8670873c"
+      },
+      {
+        "id": "3e30b004-80d5-4499-9905-e26306002c88",
+        "quantity": 52034,
+        "created_at": "2023-09-20T18:23:50.173Z",
+        "updated_at": "2023-09-20T23:49:57.047Z",
+        "basket_id": "105fe7ca-f6c1-481a-90b7-e94c1bb2480b",
+        "item_id": "724ece38-c6e8-4cf3-b858-c62a6ac0a0ca"
+      },
+      {
+        "id": "35df1268-85c2-4509-a609-e5c74ed1de9a",
+        "quantity": 44959,
+        "created_at": "2023-09-21T07:52:08.616Z",
+        "updated_at": "2023-09-20T23:22:16.516Z",
+        "basket_id": "0a697fb3-77b0-4680-bc9b-7f3b24e6d87b",
+        "item_id": "19842c33-ad98-4dab-81eb-c21d8670873c"
+      },
+      {
+        "id": "f2af10bc-0113-4f5b-be75-85fbd2311f1a",
+        "quantity": 39944,
+        "created_at": "2023-09-21T06:09:01.394Z",
+        "updated_at": "2023-09-21T04:28:37.785Z",
+        "basket_id": "105fe7ca-f6c1-481a-90b7-e94c1bb2480b",
+        "item_id": "19842c33-ad98-4dab-81eb-c21d8670873c"
+      },
+      {
+        "id": "cd29bf16-5e2d-4123-8f1b-ff90036e6fa7",
+        "quantity": 23407,
+        "created_at": "2023-09-20T14:17:02.027Z",
+        "updated_at": "2023-09-21T03:41:43.914Z",
+        "basket_id": "41dc7e3e-f25e-4142-8ea9-03bbee32bd26",
+        "item_id": "429843bf-e5b4-4531-8905-261a34856c75"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b1b01111-57e3-4441-a7fe-ef410f9252b8",
+        "email": "Claude54@roq.tech",
+        "firstName": "Gia",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/863.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d92bb08-d32c-4876-b5b1-15cfb7217b92",
+        "email": "Geraldine_Langosh@roq.tech",
+        "firstName": "Thea",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1098775",
+        "tenantId": null
+      },
+      {
+        "reference": "1bd5ec52-6749-44f7-9911-90d5ec2d62ab",
+        "email": "Anais24@roq.tech",
+        "firstName": "Raven",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4171836",
+        "tenantId": null
+      },
+      {
+        "reference": "e5e437b5-cd10-4e99-a5c3-be3b40307b89",
+        "email": "Arnold.Murphy@roq.tech",
+        "firstName": "Angie",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49455509",
+        "tenantId": null
+      },
+      {
+        "reference": "5f3e3e31-b5ac-4207-9b06-54221326cfb7",
+        "email": "Eden.Schimmel54@roq.tech",
+        "firstName": "Agustin",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "17fcec30-495f-45d6-abeb-2383f30807c8",
+        "name": "Smartphone",
+        "category": "Electronics",
+        "purchase_price": 15203,
+        "sale_price": 380,
+        "quantity": 54282,
+        "created_at": "2023-09-20T22:11:06.352Z",
+        "updated_at": "2023-09-20T22:35:15.850Z"
+      },
+      {
+        "id": "16aec4a7-5ba4-4f50-bf05-1f376dcf2311",
+        "name": "Laptop",
+        "category": "Computers",
+        "purchase_price": 71982,
+        "sale_price": 48149,
+        "quantity": 43562,
+        "created_at": "2023-09-21T12:19:52.883Z",
+        "updated_at": "2023-09-20T14:08:25.417Z"
+      },
+      {
+        "id": "3ae3e95e-7f9c-4d67-a45f-9ec3aa08855a",
+        "name": "Headphones",
+        "category": "Audio",
+        "purchase_price": 80604,
+        "sale_price": 23984,
+        "quantity": 97508,
+        "created_at": "2023-09-21T12:38:41.401Z",
+        "updated_at": "2023-09-20T19:31:26.399Z"
+      },
+      {
+        "id": "0683845b-53ce-4ef0-9cbd-31baf5f34189",
+        "name": "Camera",
+        "category": "Photography",
+        "purchase_price": 61819,
+        "sale_price": 44160,
+        "quantity": 71723,
+        "created_at": "2023-09-21T04:00:17.642Z",
+        "updated_at": "2023-09-21T00:41:01.281Z"
+      },
+      {
+        "id": "e23c3272-72c7-4c32-98b9-d5aa93f4a6b0",
+        "name": "Smartwatch",
+        "category": "Wearable",
+        "purchase_price": 85815,
+        "sale_price": 8740,
+        "quantity": 62895,
+        "created_at": "2023-09-20T23:35:14.805Z",
+        "updated_at": "2023-09-20T14:45:59.273Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "b543d294-1d6b-4e70-b9c4-05b167201b1f",
+        "name": "Basket 1",
+        "description": "A basket filled with fruits",
+        "created_at": "2023-09-21T00:26:18.774Z",
+        "updated_at": "2023-09-21T08:44:28.733Z"
+      },
+      {
+        "id": "5e8eb4a3-e885-4a8c-b05e-ba1e4ecc913b",
+        "name": "Basket 2",
+        "description": "A basket of assorted chocolates",
+        "created_at": "2023-09-21T01:20:50.141Z",
+        "updated_at": "2023-09-21T11:05:47.339Z"
+      },
+      {
+        "id": "e276d261-a2fb-4632-bd51-84a9f0b3d7ed",
+        "name": "Basket 3",
+        "description": "A basket of spa products",
+        "created_at": "2023-09-21T09:19:25.148Z",
+        "updated_at": "2023-09-20T21:24:34.162Z"
+      },
+      {
+        "id": "3aa1ef1c-9766-4dc4-b385-da48776e7364",
+        "name": "Basket 4",
+        "description": "A basket of gourmet snacks",
+        "created_at": "2023-09-21T10:36:32.415Z",
+        "updated_at": "2023-09-21T11:11:11.948Z"
+      },
+      {
+        "id": "afc719f8-040e-4051-b675-72dd6b062882",
+        "name": "Basket 5",
+        "description": "A basket of fresh flowers",
+        "created_at": "2023-09-21T09:24:24.997Z",
+        "updated_at": "2023-09-20T22:41:03.781Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "0575b9b9-c568-4364-ba7e-9868e6daa9b7",
+        "total_price": 59593,
+        "created_at": "2023-09-21T01:45:29.588Z",
+        "updated_at": "2023-09-21T12:28:42.097Z",
+        "basket_id": "5e8eb4a3-e885-4a8c-b05e-ba1e4ecc913b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b07f86ca-c17b-4b47-a3cb-4dc67782c247",
+        "total_price": 53318,
+        "created_at": "2023-09-21T09:48:58.428Z",
+        "updated_at": "2023-09-20T21:37:55.914Z",
+        "basket_id": "3aa1ef1c-9766-4dc4-b385-da48776e7364",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c20d630-060d-482c-80e5-6fc985d75859",
+        "total_price": 5005,
+        "created_at": "2023-09-21T01:59:55.568Z",
+        "updated_at": "2023-09-21T09:34:04.442Z",
+        "basket_id": "5e8eb4a3-e885-4a8c-b05e-ba1e4ecc913b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07557a58-1aa0-45f8-8d00-04c5640b7631",
+        "total_price": 55571,
+        "created_at": "2023-09-21T08:34:45.287Z",
+        "updated_at": "2023-09-21T06:34:25.275Z",
+        "basket_id": "3aa1ef1c-9766-4dc4-b385-da48776e7364",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39d686c4-0efe-4dcd-bf9f-7b784b9b507a",
+        "total_price": 35723,
+        "created_at": "2023-09-21T00:40:26.552Z",
+        "updated_at": "2023-09-21T06:33:53.331Z",
+        "basket_id": "e276d261-a2fb-4632-bd51-84a9f0b3d7ed",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "1aedd355-dd54-4b0a-83d7-d31d1966db56",
+        "quantity": 46044,
+        "created_at": "2023-09-21T04:21:36.288Z",
+        "updated_at": "2023-09-20T22:01:40.100Z",
+        "basket_id": "e276d261-a2fb-4632-bd51-84a9f0b3d7ed",
+        "item_id": "e23c3272-72c7-4c32-98b9-d5aa93f4a6b0"
+      },
+      {
+        "id": "0e3ac31c-b2cc-44f2-8a03-877ed591cabc",
+        "quantity": 59885,
+        "created_at": "2023-09-21T08:11:10.405Z",
+        "updated_at": "2023-09-20T21:10:51.745Z",
+        "basket_id": "b543d294-1d6b-4e70-b9c4-05b167201b1f",
+        "item_id": "e23c3272-72c7-4c32-98b9-d5aa93f4a6b0"
+      },
+      {
+        "id": "2467a846-cd12-4205-a31e-37d319e8f0c3",
+        "quantity": 80091,
+        "created_at": "2023-09-20T23:21:25.541Z",
+        "updated_at": "2023-09-21T02:04:02.164Z",
+        "basket_id": "3aa1ef1c-9766-4dc4-b385-da48776e7364",
+        "item_id": "16aec4a7-5ba4-4f50-bf05-1f376dcf2311"
+      },
+      {
+        "id": "e4d4aa4c-5445-4038-a48e-b2951f1a2c15",
+        "quantity": 67443,
+        "created_at": "2023-09-20T22:32:57.151Z",
+        "updated_at": "2023-09-21T05:02:39.590Z",
+        "basket_id": "b543d294-1d6b-4e70-b9c4-05b167201b1f",
+        "item_id": "17fcec30-495f-45d6-abeb-2383f30807c8"
+      },
+      {
+        "id": "36f89181-0acb-4d5d-8f81-b6b872aa0b47",
+        "quantity": 61674,
+        "created_at": "2023-09-21T09:28:01.203Z",
+        "updated_at": "2023-09-21T05:25:07.651Z",
+        "basket_id": "b543d294-1d6b-4e70-b9c4-05b167201b1f",
+        "item_id": "16aec4a7-5ba4-4f50-bf05-1f376dcf2311"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ad27e18f-6559-44d8-8e53-d484603688e2",
+        "email": "August8@roq.tech",
+        "firstName": "Marcel",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/468.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83483861-9dbd-4cb2-8128-2aa6679a960c",
+        "email": "Alda.Daugherty@roq.tech",
+        "firstName": "Noelia",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/665.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d911f8aa-6a49-46a9-bbf7-fa558407bb68",
+        "email": "Herbert_Hessel@roq.tech",
+        "firstName": "Karli",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/782.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6e4ca68-2307-439b-8f9e-85d754a65c6d",
+        "email": "Eryn50@roq.tech",
+        "firstName": "June",
+        "lastName": "Gleichner-Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61835547",
+        "tenantId": null
+      },
+      {
+        "reference": "a1e9f3da-80e3-4c01-a81a-882cb83b5a64",
+        "email": "Bettye60@roq.tech",
+        "firstName": "Alessia",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1148.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "b2727871-260b-4e62-855c-4f76964dd41c",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 33613,
+        "sale_price": 95482,
+        "quantity": 10498,
+        "created_at": "2023-09-20T18:42:20.181Z",
+        "updated_at": "2023-09-20T16:15:00.789Z"
+      },
+      {
+        "id": "ff638cfc-5f8f-448e-a429-9160b975fe9b",
+        "name": "Product B",
+        "category": "Clothing",
+        "purchase_price": 18428,
+        "sale_price": 4235,
+        "quantity": 81893,
+        "created_at": "2023-09-20T19:17:54.013Z",
+        "updated_at": "2023-09-21T12:43:06.816Z"
+      },
+      {
+        "id": "16d0f5e2-0625-4291-81d6-c27bd53e2c02",
+        "name": "Product C",
+        "category": "Home Decor",
+        "purchase_price": 83538,
+        "sale_price": 30730,
+        "quantity": 98133,
+        "created_at": "2023-09-21T01:24:20.686Z",
+        "updated_at": "2023-09-20T20:43:12.949Z"
+      },
+      {
+        "id": "77bf92c8-67ea-4b4a-8dfe-e51ca6762c84",
+        "name": "Product D",
+        "category": "Sports Equipment",
+        "purchase_price": 46613,
+        "sale_price": 74868,
+        "quantity": 18621,
+        "created_at": "2023-09-20T15:03:40.837Z",
+        "updated_at": "2023-09-20T22:06:53.326Z"
+      },
+      {
+        "id": "70728457-ee2b-457a-8377-876d58935cbd",
+        "name": "Product E",
+        "category": "Books",
+        "purchase_price": 59067,
+        "sale_price": 53435,
+        "quantity": 56154,
+        "created_at": "2023-09-20T21:45:29.753Z",
+        "updated_at": "2023-09-20T15:27:57.593Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "7fda8e21-0e0e-4159-88f0-c1a9052ed29e",
+        "name": "Basket 1",
+        "description": "A basket for everyday essentials",
+        "created_at": "2023-09-20T23:27:25.267Z",
+        "updated_at": "2023-09-21T07:03:37.263Z"
+      },
+      {
+        "id": "30588e7f-b5bc-4287-8bd8-953fa3b30c52",
+        "name": "Basket 2",
+        "description": "A basket for special occasions",
+        "created_at": "2023-09-20T15:03:02.448Z",
+        "updated_at": "2023-09-20T22:52:53.505Z"
+      },
+      {
+        "id": "093d3c9c-8f9a-4998-8c7c-b417c473a230",
+        "name": "Basket 3",
+        "description": "A basket for self-care",
+        "created_at": "2023-09-20T18:44:58.575Z",
+        "updated_at": "2023-09-20T20:26:57.512Z"
+      },
+      {
+        "id": "250638dc-6db4-4a6f-a54c-8ba0754b5409",
+        "name": "Basket 4",
+        "description": "A basket for outdoor adventures",
+        "created_at": "2023-09-21T11:39:35.592Z",
+        "updated_at": "2023-09-21T11:06:01.244Z"
+      },
+      {
+        "id": "0800c013-9c8f-4b69-a417-6804c99cf5e9",
+        "name": "Basket 5",
+        "description": "A basket for relaxation",
+        "created_at": "2023-09-20T19:00:35.543Z",
+        "updated_at": "2023-09-21T08:20:26.775Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "f960bc3a-38c1-4b6c-86ad-323b84e11b53",
+        "total_price": 72614,
+        "created_at": "2023-09-21T06:08:11.883Z",
+        "updated_at": "2023-09-20T23:37:20.726Z",
+        "basket_id": "7fda8e21-0e0e-4159-88f0-c1a9052ed29e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa5e37e3-8c91-418d-8ff1-0ec00cba40ab",
+        "total_price": 52899,
+        "created_at": "2023-09-21T03:05:22.790Z",
+        "updated_at": "2023-09-20T13:26:08.461Z",
+        "basket_id": "093d3c9c-8f9a-4998-8c7c-b417c473a230",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d7105b-3431-40fc-88f0-14e1d73d5cea",
+        "total_price": 83045,
+        "created_at": "2023-09-20T22:25:43.687Z",
+        "updated_at": "2023-09-20T19:11:31.816Z",
+        "basket_id": "0800c013-9c8f-4b69-a417-6804c99cf5e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb4e00e-cb19-4747-977f-a842bb5c41f9",
+        "total_price": 1898,
+        "created_at": "2023-09-21T02:54:23.999Z",
+        "updated_at": "2023-09-20T19:37:14.143Z",
+        "basket_id": "0800c013-9c8f-4b69-a417-6804c99cf5e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92c6054b-9be7-4462-b58d-c2e68c4aafbb",
+        "total_price": 9094,
+        "created_at": "2023-09-21T07:43:45.781Z",
+        "updated_at": "2023-09-20T17:07:42.492Z",
+        "basket_id": "30588e7f-b5bc-4287-8bd8-953fa3b30c52",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "adf51ee0-54c9-4948-903e-f587dc18bebf",
+        "quantity": 93406,
+        "created_at": "2023-09-20T19:33:27.413Z",
+        "updated_at": "2023-09-21T09:11:44.354Z",
+        "basket_id": "250638dc-6db4-4a6f-a54c-8ba0754b5409",
+        "item_id": "77bf92c8-67ea-4b4a-8dfe-e51ca6762c84"
+      },
+      {
+        "id": "0ea81385-fa66-420f-a43c-fb6299ba0ad2",
+        "quantity": 61820,
+        "created_at": "2023-09-21T03:43:35.982Z",
+        "updated_at": "2023-09-20T18:36:00.291Z",
+        "basket_id": "30588e7f-b5bc-4287-8bd8-953fa3b30c52",
+        "item_id": "b2727871-260b-4e62-855c-4f76964dd41c"
+      },
+      {
+        "id": "a603be09-5701-48b9-b4dd-f160d1a3691f",
+        "quantity": 50733,
+        "created_at": "2023-09-20T14:13:11.104Z",
+        "updated_at": "2023-09-20T17:05:53.651Z",
+        "basket_id": "7fda8e21-0e0e-4159-88f0-c1a9052ed29e",
+        "item_id": "70728457-ee2b-457a-8377-876d58935cbd"
+      },
+      {
+        "id": "8dd5e007-a82b-4225-a56c-e726a67cbe37",
+        "quantity": 49709,
+        "created_at": "2023-09-21T11:14:26.625Z",
+        "updated_at": "2023-09-20T22:34:34.389Z",
+        "basket_id": "093d3c9c-8f9a-4998-8c7c-b417c473a230",
+        "item_id": "70728457-ee2b-457a-8377-876d58935cbd"
+      },
+      {
+        "id": "670aad63-8128-456a-b919-738d3905a148",
+        "quantity": 20975,
+        "created_at": "2023-09-21T00:40:37.280Z",
+        "updated_at": "2023-09-21T01:51:56.014Z",
+        "basket_id": "7fda8e21-0e0e-4159-88f0-c1a9052ed29e",
+        "item_id": "77bf92c8-67ea-4b4a-8dfe-e51ca6762c84"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "53531d05-5186-41f5-9213-1c02677076a3",
+        "email": "Lukas_Monahan@roq.tech",
+        "firstName": "Toy",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4a704b4-5065-45fc-8e37-efd843a0b117",
+        "email": "Kiera_Haag64@roq.tech",
+        "firstName": "Elsie",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4040787",
+        "tenantId": null
+      },
+      {
+        "reference": "1804a73e-f98d-4452-b015-ec2894a60f5e",
+        "email": "Torrance.Towne@roq.tech",
+        "firstName": "Georgiana",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82340876",
+        "tenantId": null
+      },
+      {
+        "reference": "8c469447-70cf-4cc1-8bdd-454cfd0b535a",
+        "email": "Quinten.Kiehn78@roq.tech",
+        "firstName": "Gretchen",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94505009",
+        "tenantId": null
+      },
+      {
+        "reference": "2ac62c94-7233-49d7-8e7d-41ae5bf6f333",
+        "email": "Otto_Walker@roq.tech",
+        "firstName": "Bernardo",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/412.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "b8b6ad26-1523-4a91-a289-173246bc9359",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 76820,
+        "sale_price": 21486,
+        "quantity": 36668,
+        "created_at": "2023-09-21T12:55:48.722Z",
+        "updated_at": "2023-09-21T05:20:47.612Z"
+      },
+      {
+        "id": "646f0a4a-f123-4674-a85b-8aa11d2663ba",
+        "name": "Product B",
+        "category": "Fashion",
+        "purchase_price": 56202,
+        "sale_price": 68365,
+        "quantity": 6740,
+        "created_at": "2023-09-20T18:24:39.102Z",
+        "updated_at": "2023-09-21T04:11:59.003Z"
+      },
+      {
+        "id": "9d2cf5cd-8d2e-4fd7-8c43-00eeecf0f8fb",
+        "name": "Product C",
+        "category": "Home Decor",
+        "purchase_price": 89967,
+        "sale_price": 6666,
+        "quantity": 57040,
+        "created_at": "2023-09-21T06:42:17.535Z",
+        "updated_at": "2023-09-20T16:38:31.993Z"
+      },
+      {
+        "id": "4af0317b-488e-4670-a0f0-b81c5b1b5006",
+        "name": "Product D",
+        "category": "Sports",
+        "purchase_price": 18879,
+        "sale_price": 95511,
+        "quantity": 22038,
+        "created_at": "2023-09-20T16:04:10.593Z",
+        "updated_at": "2023-09-20T15:40:50.953Z"
+      },
+      {
+        "id": "2a0db505-dffc-4f03-b539-fb9466600af2",
+        "name": "Product E",
+        "category": "Beauty",
+        "purchase_price": 85456,
+        "sale_price": 98960,
+        "quantity": 59205,
+        "created_at": "2023-09-21T01:11:04.684Z",
+        "updated_at": "2023-09-20T13:29:58.475Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "e6d8cecb-d9d8-4678-93eb-eff1920d3d28",
+        "name": "Basket 1",
+        "description": "A collection of goodies",
+        "created_at": "2023-09-20T22:06:01.553Z",
+        "updated_at": "2023-09-20T15:27:13.338Z"
+      },
+      {
+        "id": "2716ddab-4c6c-422c-a21e-d8c8c8e9250a",
+        "name": "Basket 2",
+        "description": "Perfect for any occasion",
+        "created_at": "2023-09-21T09:24:02.560Z",
+        "updated_at": "2023-09-20T13:24:41.145Z"
+      },
+      {
+        "id": "0b7ce8a9-6194-401e-8d3a-a02a9959140b",
+        "name": "Basket 3",
+        "description": "Handpicked with care",
+        "created_at": "2023-09-20T15:55:25.520Z",
+        "updated_at": "2023-09-20T23:18:38.024Z"
+      },
+      {
+        "id": "83a743c4-3436-487e-90c0-da8cb196ab6b",
+        "name": "Basket 4",
+        "description": "Designed for convenience",
+        "created_at": "2023-09-21T10:56:41.667Z",
+        "updated_at": "2023-09-20T20:31:32.322Z"
+      },
+      {
+        "id": "147a15e5-73d6-46d6-bdab-ba42b87ec71f",
+        "name": "Basket 5",
+        "description": "A treat for yourself",
+        "created_at": "2023-09-20T20:28:53.350Z",
+        "updated_at": "2023-09-21T10:23:04.474Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "c3f7d946-a0c4-49ae-854b-e4a54e4eed7c",
+        "total_price": 96304,
+        "created_at": "2023-09-20T15:54:35.647Z",
+        "updated_at": "2023-09-21T04:17:43.831Z",
+        "basket_id": "83a743c4-3436-487e-90c0-da8cb196ab6b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac80012e-3ef9-476c-b031-acca8c38d8d6",
+        "total_price": 18735,
+        "created_at": "2023-09-21T07:13:19.703Z",
+        "updated_at": "2023-09-20T22:30:28.697Z",
+        "basket_id": "147a15e5-73d6-46d6-bdab-ba42b87ec71f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b65278f-f41a-4816-8d7c-abbf38211e1b",
+        "total_price": 84270,
+        "created_at": "2023-09-20T22:11:15.727Z",
+        "updated_at": "2023-09-20T22:09:09.855Z",
+        "basket_id": "2716ddab-4c6c-422c-a21e-d8c8c8e9250a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de77a778-dd24-46dd-831e-fce9609b8ac5",
+        "total_price": 94863,
+        "created_at": "2023-09-20T16:29:05.673Z",
+        "updated_at": "2023-09-20T22:42:23.077Z",
+        "basket_id": "0b7ce8a9-6194-401e-8d3a-a02a9959140b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97fa6d82-d7d2-42de-b467-c421ba324d1a",
+        "total_price": 16535,
+        "created_at": "2023-09-21T09:43:15.402Z",
+        "updated_at": "2023-09-20T22:13:20.805Z",
+        "basket_id": "147a15e5-73d6-46d6-bdab-ba42b87ec71f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "7e340162-35bb-4d79-afdc-d00255fa739e",
+        "quantity": 36817,
+        "created_at": "2023-09-21T08:41:26.071Z",
+        "updated_at": "2023-09-20T21:28:59.544Z",
+        "basket_id": "e6d8cecb-d9d8-4678-93eb-eff1920d3d28",
+        "item_id": "b8b6ad26-1523-4a91-a289-173246bc9359"
+      },
+      {
+        "id": "2f34d967-61ea-4d3e-88e0-465bb234b0eb",
+        "quantity": 82941,
+        "created_at": "2023-09-20T21:42:56.796Z",
+        "updated_at": "2023-09-21T05:18:38.284Z",
+        "basket_id": "2716ddab-4c6c-422c-a21e-d8c8c8e9250a",
+        "item_id": "2a0db505-dffc-4f03-b539-fb9466600af2"
+      },
+      {
+        "id": "dcacc148-120c-4191-994e-bfd5a3489dba",
+        "quantity": 76300,
+        "created_at": "2023-09-20T21:58:04.751Z",
+        "updated_at": "2023-09-21T00:45:51.352Z",
+        "basket_id": "147a15e5-73d6-46d6-bdab-ba42b87ec71f",
+        "item_id": "b8b6ad26-1523-4a91-a289-173246bc9359"
+      },
+      {
+        "id": "85b6db76-f8d9-41d6-945f-ae8dbf677b97",
+        "quantity": 42698,
+        "created_at": "2023-09-21T09:48:55.497Z",
+        "updated_at": "2023-09-21T10:17:01.449Z",
+        "basket_id": "83a743c4-3436-487e-90c0-da8cb196ab6b",
+        "item_id": "b8b6ad26-1523-4a91-a289-173246bc9359"
+      },
+      {
+        "id": "63899318-e500-4716-8f96-a4278bdaaac7",
+        "quantity": 65876,
+        "created_at": "2023-09-20T15:42:48.186Z",
+        "updated_at": "2023-09-21T11:16:43.605Z",
+        "basket_id": "0b7ce8a9-6194-401e-8d3a-a02a9959140b",
+        "item_id": "2a0db505-dffc-4f03-b539-fb9466600af2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62b281fb-4ad5-4b43-9990-bfaa0cd5d148",
+        "email": "Corbin1@roq.tech",
+        "firstName": "Adah",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83110420",
+        "tenantId": null
+      },
+      {
+        "reference": "431b64ee-9d14-40d1-9dee-98f380c86db9",
+        "email": "Godfrey19@roq.tech",
+        "firstName": "Devante",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/615.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e483bd32-e344-4c89-8db2-d8df6de65ed7",
+        "email": "Arielle.Kuhn99@roq.tech",
+        "firstName": "Madge",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/214.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15856e94-361f-4899-b11f-49dd021f7b16",
+        "email": "Lisette.Kirlin@roq.tech",
+        "firstName": "Shyann",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/732.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e325cdd6-d1fe-488a-8e4b-2be8259af03f",
+        "email": "Delta.Mills91@roq.tech",
+        "firstName": "Elfrieda",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "77875d8e-a269-424e-af7c-7e345dfcefae",
+        "name": "Item 1",
+        "category": "Electronics",
+        "purchase_price": 31476,
+        "sale_price": 39281,
+        "quantity": 87027,
+        "created_at": "2023-09-20T18:25:29.451Z",
+        "updated_at": "2023-09-20T18:34:51.120Z"
+      },
+      {
+        "id": "aa0658b9-2e9d-4c92-aac1-a9421a865599",
+        "name": "Item 2",
+        "category": "Clothing",
+        "purchase_price": 93384,
+        "sale_price": 68130,
+        "quantity": 28352,
+        "created_at": "2023-09-20T16:44:16.112Z",
+        "updated_at": "2023-09-20T16:54:42.014Z"
+      },
+      {
+        "id": "47d4a9ac-b1d6-406b-a4f3-f26913b030fd",
+        "name": "Item 3",
+        "category": "Home Decor",
+        "purchase_price": 51598,
+        "sale_price": 40702,
+        "quantity": 79959,
+        "created_at": "2023-09-21T07:28:50.764Z",
+        "updated_at": "2023-09-21T04:28:37.287Z"
+      },
+      {
+        "id": "73edd7fd-92ac-484c-91ed-f810e43118f5",
+        "name": "Item 4",
+        "category": "Sports",
+        "purchase_price": 79668,
+        "sale_price": 19551,
+        "quantity": 63880,
+        "created_at": "2023-09-20T13:48:37.691Z",
+        "updated_at": "2023-09-20T16:31:37.705Z"
+      },
+      {
+        "id": "730397e1-be02-42b6-9f98-a99b2c2d6f36",
+        "name": "Item 5",
+        "category": "Books",
+        "purchase_price": 76744,
+        "sale_price": 56608,
+        "quantity": 37173,
+        "created_at": "2023-09-21T01:51:49.671Z",
+        "updated_at": "2023-09-20T20:04:43.945Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "f248438b-190b-4723-b5ba-cd974cc34f95",
+        "name": "Basket 1",
+        "description": "Basket for fruits",
+        "created_at": "2023-09-21T06:09:29.178Z",
+        "updated_at": "2023-09-20T17:38:23.818Z"
+      },
+      {
+        "id": "2d327941-635b-4f43-a32f-f98bdb91c653",
+        "name": "Basket 2",
+        "description": "Basket for toys",
+        "created_at": "2023-09-20T20:11:40.194Z",
+        "updated_at": "2023-09-20T20:09:19.307Z"
+      },
+      {
+        "id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "name": "Basket 3",
+        "description": "Basket for laundry",
+        "created_at": "2023-09-21T09:22:46.447Z",
+        "updated_at": "2023-09-21T10:33:11.990Z"
+      },
+      {
+        "id": "2fe8c8c9-7466-42f4-915a-9a37f94da175",
+        "name": "Basket 4",
+        "description": "Basket for gardening",
+        "created_at": "2023-09-21T10:57:07.523Z",
+        "updated_at": "2023-09-21T12:30:39.316Z"
+      },
+      {
+        "id": "1c47643f-bca4-461c-930c-21ecfd8064d3",
+        "name": "Basket 5",
+        "description": "Basket for picnic",
+        "created_at": "2023-09-20T16:31:37.286Z",
+        "updated_at": "2023-09-21T00:29:33.599Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "9b115949-aca3-4102-b7f1-00a21512f1f3",
+        "total_price": 63089,
+        "created_at": "2023-09-21T00:20:50.233Z",
+        "updated_at": "2023-09-21T09:57:29.295Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c3650a8-4482-483c-b119-d2c3c7a80317",
+        "total_price": 40492,
+        "created_at": "2023-09-21T09:17:38.936Z",
+        "updated_at": "2023-09-21T09:35:27.923Z",
+        "basket_id": "f248438b-190b-4723-b5ba-cd974cc34f95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca8d3df0-894e-47a4-8d82-3be7758d782e",
+        "total_price": 40268,
+        "created_at": "2023-09-21T06:43:58.947Z",
+        "updated_at": "2023-09-20T14:24:22.262Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa7ae06b-5d4f-44a9-a3b4-29b867bf7bd0",
+        "total_price": 25501,
+        "created_at": "2023-09-20T13:40:39.234Z",
+        "updated_at": "2023-09-21T08:47:42.621Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "942457d4-9286-4b89-9d08-be364173211d",
+        "total_price": 81984,
+        "created_at": "2023-09-20T17:57:31.815Z",
+        "updated_at": "2023-09-21T05:37:20.557Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "fbb7586b-bd10-471c-b206-b8577c6ce030",
+        "quantity": 56870,
+        "created_at": "2023-09-20T16:27:03.301Z",
+        "updated_at": "2023-09-21T06:33:38.334Z",
+        "basket_id": "2fe8c8c9-7466-42f4-915a-9a37f94da175",
+        "item_id": "77875d8e-a269-424e-af7c-7e345dfcefae"
+      },
+      {
+        "id": "84008931-d257-4a3c-86a1-861b396f836e",
+        "quantity": 69841,
+        "created_at": "2023-09-20T21:33:47.208Z",
+        "updated_at": "2023-09-21T10:24:26.423Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "item_id": "aa0658b9-2e9d-4c92-aac1-a9421a865599"
+      },
+      {
+        "id": "779f55c1-a472-4ac5-98d0-805851e43249",
+        "quantity": 31927,
+        "created_at": "2023-09-21T09:41:35.147Z",
+        "updated_at": "2023-09-20T18:16:28.169Z",
+        "basket_id": "2fe8c8c9-7466-42f4-915a-9a37f94da175",
+        "item_id": "73edd7fd-92ac-484c-91ed-f810e43118f5"
+      },
+      {
+        "id": "58c57b31-c32e-4e02-aa25-4a4d89727052",
+        "quantity": 70596,
+        "created_at": "2023-09-20T17:49:38.771Z",
+        "updated_at": "2023-09-21T08:04:21.962Z",
+        "basket_id": "f248438b-190b-4723-b5ba-cd974cc34f95",
+        "item_id": "aa0658b9-2e9d-4c92-aac1-a9421a865599"
+      },
+      {
+        "id": "1da07daf-ea2e-43cc-b048-9e3b12c24f6b",
+        "quantity": 4409,
+        "created_at": "2023-09-21T10:11:48.033Z",
+        "updated_at": "2023-09-20T14:34:49.010Z",
+        "basket_id": "466b00a0-f853-4535-967b-9ab5120c40d3",
+        "item_id": "47d4a9ac-b1d6-406b-a4f3-f26913b030fd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4d7a8cde-4685-4934-9852-ac80e52dfb5a",
+        "email": "Trycia_Hackett67@roq.tech",
+        "firstName": "Emerson",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88889787",
+        "tenantId": null
+      },
+      {
+        "reference": "944fcd3c-66f6-473d-920c-7aa8e46b13bc",
+        "email": "Kasandra.Morissette11@roq.tech",
+        "firstName": "Chaim",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/873.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c4567cf-92f8-4481-82d9-035f717676a0",
+        "email": "Edwardo.Bins30@roq.tech",
+        "firstName": "Vince",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28fae3ff-694b-48c8-a50e-372002dfed90",
+        "email": "Jaeden46@roq.tech",
+        "firstName": "Hollie",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37981075",
+        "tenantId": null
+      },
+      {
+        "reference": "090de1b1-4f82-4417-9379-f8553eddbc4e",
+        "email": "Craig41@roq.tech",
+        "firstName": "Lea",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "7f3646db-9e4d-48e1-bfc1-a96ca06f3031",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 17909,
+        "sale_price": 84977,
+        "quantity": 85878,
+        "created_at": "2023-09-21T09:01:44.347Z",
+        "updated_at": "2023-09-21T07:35:32.971Z"
+      },
+      {
+        "id": "eb9e7979-35b8-41f9-a8c1-7c1f9e92a2bb",
+        "name": "Product B",
+        "category": "Clothing",
+        "purchase_price": 14754,
+        "sale_price": 32880,
+        "quantity": 10457,
+        "created_at": "2023-09-21T09:06:37.909Z",
+        "updated_at": "2023-09-21T01:46:02.509Z"
+      },
+      {
+        "id": "718e8235-dc85-47cb-8bdf-7d06c0340ebc",
+        "name": "Product C",
+        "category": "Home Decor",
+        "purchase_price": 92905,
+        "sale_price": 50900,
+        "quantity": 6873,
+        "created_at": "2023-09-21T09:09:46.837Z",
+        "updated_at": "2023-09-20T21:46:54.276Z"
+      },
+      {
+        "id": "0a8e6d78-8ea1-4905-a9f3-e9314345c4b2",
+        "name": "Product D",
+        "category": "Sports Equipment",
+        "purchase_price": 72698,
+        "sale_price": 58396,
+        "quantity": 20115,
+        "created_at": "2023-09-20T20:39:47.523Z",
+        "updated_at": "2023-09-20T18:22:34.513Z"
+      },
+      {
+        "id": "ab785518-d0b2-4c3d-8a67-2ffcb6982b31",
+        "name": "Product E",
+        "category": "Books",
+        "purchase_price": 10462,
+        "sale_price": 32627,
+        "quantity": 49490,
+        "created_at": "2023-09-20T23:12:26.785Z",
+        "updated_at": "2023-09-20T20:23:18.438Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "e3600ed6-0675-4982-a59e-ec0df95d51b3",
+        "name": "Basket 1",
+        "description": "A basket for everyday essentials",
+        "created_at": "2023-09-20T19:30:09.175Z",
+        "updated_at": "2023-09-20T20:09:17.378Z"
+      },
+      {
+        "id": "5066e38f-1191-41ab-b487-f87f27df76f3",
+        "name": "Basket 2",
+        "description": "A basket for organizing your belongings",
+        "created_at": "2023-09-21T04:10:29.742Z",
+        "updated_at": "2023-09-21T01:24:25.667Z"
+      },
+      {
+        "id": "31c3c415-d3d4-4530-a410-f0179daa5d0d",
+        "name": "Basket 3",
+        "description": "A stylish basket for decorative purposes",
+        "created_at": "2023-09-20T23:12:11.677Z",
+        "updated_at": "2023-09-20T16:34:18.373Z"
+      },
+      {
+        "id": "35638c55-bf54-4dd7-8395-97280d33192b",
+        "name": "Basket 4",
+        "description": "A durable basket for heavy items",
+        "created_at": "2023-09-20T15:58:15.522Z",
+        "updated_at": "2023-09-20T16:27:29.415Z"
+      },
+      {
+        "id": "c6fc90b7-cf4a-42f9-93f1-a12c57b93417",
+        "name": "Basket 5",
+        "description": "A compact basket for small items",
+        "created_at": "2023-09-20T15:17:11.305Z",
+        "updated_at": "2023-09-21T04:58:03.499Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "5c8719f4-c64c-4e9d-a0d5-df7ad8cd1714",
+        "total_price": 44562,
+        "created_at": "2023-09-20T21:03:57.542Z",
+        "updated_at": "2023-09-21T10:55:59.904Z",
+        "basket_id": "31c3c415-d3d4-4530-a410-f0179daa5d0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61542755-a546-4233-b36a-22173e4ab4d8",
+        "total_price": 15240,
+        "created_at": "2023-09-21T01:58:41.466Z",
+        "updated_at": "2023-09-21T08:35:15.617Z",
+        "basket_id": "e3600ed6-0675-4982-a59e-ec0df95d51b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa025512-8381-49f1-9862-25f93445aae9",
+        "total_price": 20070,
+        "created_at": "2023-09-21T10:18:56.049Z",
+        "updated_at": "2023-09-20T18:28:51.530Z",
+        "basket_id": "31c3c415-d3d4-4530-a410-f0179daa5d0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11e91143-4aed-48f1-a954-6e34d521de1a",
+        "total_price": 71391,
+        "created_at": "2023-09-21T03:00:33.916Z",
+        "updated_at": "2023-09-21T09:14:19.205Z",
+        "basket_id": "c6fc90b7-cf4a-42f9-93f1-a12c57b93417",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc8a05e8-f83a-4774-a784-b644d47626c9",
+        "total_price": 14917,
+        "created_at": "2023-09-21T11:20:03.959Z",
+        "updated_at": "2023-09-21T09:08:34.281Z",
+        "basket_id": "31c3c415-d3d4-4530-a410-f0179daa5d0d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "d79ac84f-a7d8-47f6-b4dd-6174e156c49b",
+        "quantity": 67662,
+        "created_at": "2023-09-20T13:07:44.606Z",
+        "updated_at": "2023-09-21T12:15:11.059Z",
+        "basket_id": "c6fc90b7-cf4a-42f9-93f1-a12c57b93417",
+        "item_id": "eb9e7979-35b8-41f9-a8c1-7c1f9e92a2bb"
+      },
+      {
+        "id": "ac74d68c-cf6e-422e-8d16-a8681488c7e1",
+        "quantity": 23467,
+        "created_at": "2023-09-20T19:12:13.423Z",
+        "updated_at": "2023-09-21T06:25:12.425Z",
+        "basket_id": "c6fc90b7-cf4a-42f9-93f1-a12c57b93417",
+        "item_id": "718e8235-dc85-47cb-8bdf-7d06c0340ebc"
+      },
+      {
+        "id": "de691bb3-1254-4208-ac90-13e598e1bbd9",
+        "quantity": 38337,
+        "created_at": "2023-09-21T10:56:16.618Z",
+        "updated_at": "2023-09-20T15:54:35.074Z",
+        "basket_id": "35638c55-bf54-4dd7-8395-97280d33192b",
+        "item_id": "718e8235-dc85-47cb-8bdf-7d06c0340ebc"
+      },
+      {
+        "id": "ccfa0109-9971-4ccd-a0d6-c8966c6378b3",
+        "quantity": 5680,
+        "created_at": "2023-09-21T09:10:25.396Z",
+        "updated_at": "2023-09-20T22:10:02.223Z",
+        "basket_id": "5066e38f-1191-41ab-b487-f87f27df76f3",
+        "item_id": "718e8235-dc85-47cb-8bdf-7d06c0340ebc"
+      },
+      {
+        "id": "05351c7b-98d2-43dd-a914-2ec348dd607e",
+        "quantity": 52152,
+        "created_at": "2023-09-20T23:35:23.436Z",
+        "updated_at": "2023-09-20T19:27:14.615Z",
+        "basket_id": "31c3c415-d3d4-4530-a410-f0179daa5d0d",
+        "item_id": "718e8235-dc85-47cb-8bdf-7d06c0340ebc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1a04ef52-467a-4982-ace8-ea40211b2a5e",
+        "email": "Kira_Krajcik@roq.tech",
+        "firstName": "Carmine",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9bb03d69-0956-4be3-8cf1-02ef3226885c",
+        "email": "Marisa76@roq.tech",
+        "firstName": "Sandra",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2964952",
+        "tenantId": null
+      },
+      {
+        "reference": "2546775e-dc86-4a6a-b217-4f2c364afc60",
+        "email": "Gordon.Bauch65@roq.tech",
+        "firstName": "Reagan",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36751280",
+        "tenantId": null
+      },
+      {
+        "reference": "c4862f30-30ef-48f1-9396-0d3fc1255be5",
+        "email": "Ashleigh.Morar7@roq.tech",
+        "firstName": "Augustus",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91428531",
+        "tenantId": null
+      },
+      {
+        "reference": "4d65cea3-bbe9-4047-9967-7824e4dbe082",
+        "email": "Joan31@roq.tech",
+        "firstName": "Shea",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "609bcd64-17ab-4683-99d1-f4a281bd9015",
+        "name": "Smartphone",
+        "category": "Electronics",
+        "purchase_price": 74849,
+        "sale_price": 19915,
+        "quantity": 91136,
+        "created_at": "2023-09-21T01:52:42.672Z",
+        "updated_at": "2023-09-21T10:59:06.853Z"
+      },
+      {
+        "id": "5fd6e4fa-2313-40c3-871c-4649b0a0c355",
+        "name": "Laptop",
+        "category": "Computers",
+        "purchase_price": 20701,
+        "sale_price": 70281,
+        "quantity": 21845,
+        "created_at": "2023-09-21T06:05:50.262Z",
+        "updated_at": "2023-09-20T19:15:37.600Z"
+      },
+      {
+        "id": "8e340b7a-63eb-4c59-916b-cf8137b649eb",
+        "name": "Headphones",
+        "category": "Audio",
+        "purchase_price": 21680,
+        "sale_price": 38025,
+        "quantity": 37225,
+        "created_at": "2023-09-21T05:07:48.837Z",
+        "updated_at": "2023-09-21T12:52:00.986Z"
+      },
+      {
+        "id": "89e2f2c2-5f07-45ce-b3fc-86a1818896b5",
+        "name": "Camera",
+        "category": "Photography",
+        "purchase_price": 5431,
+        "sale_price": 72365,
+        "quantity": 22069,
+        "created_at": "2023-09-21T00:05:04.357Z",
+        "updated_at": "2023-09-20T23:39:10.194Z"
+      },
+      {
+        "id": "d62f2051-f0e9-49b1-bca4-0d75418ac502",
+        "name": "Smartwatch",
+        "category": "Wearable Technology",
+        "purchase_price": 45759,
+        "sale_price": 81908,
+        "quantity": 61684,
+        "created_at": "2023-09-20T20:12:23.651Z",
+        "updated_at": "2023-09-20T20:01:31.253Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "8d403cd9-b378-4c7b-9270-2d1619de7d70",
+        "name": "Basket 1",
+        "description": "A basket filled with fresh fruits",
+        "created_at": "2023-09-20T17:40:44.682Z",
+        "updated_at": "2023-09-21T06:41:28.453Z"
+      },
+      {
+        "id": "e567392f-89de-47a4-b54b-3400c8876956",
+        "name": "Basket 2",
+        "description": "A basket of assorted chocolates",
+        "created_at": "2023-09-21T10:18:57.847Z",
+        "updated_at": "2023-09-21T01:51:17.053Z"
+      },
+      {
+        "id": "aed027d8-4fcb-49c3-a2b1-941f31c43d73",
+        "name": "Basket 3",
+        "description": "A basket of gourmet snacks",
+        "created_at": "2023-09-21T11:28:27.469Z",
+        "updated_at": "2023-09-21T08:58:32.725Z"
+      },
+      {
+        "id": "34ccdf92-a8f5-46c3-a4bd-eabc08c26e80",
+        "name": "Basket 4",
+        "description": "A basket of spa products",
+        "created_at": "2023-09-20T15:27:06.332Z",
+        "updated_at": "2023-09-20T21:58:52.653Z"
+      },
+      {
+        "id": "0310da1c-a6a2-4542-bab8-aca23a894f58",
+        "name": "Basket 5",
+        "description": "A basket of fine wines",
+        "created_at": "2023-09-20T20:15:16.364Z",
+        "updated_at": "2023-09-21T05:34:35.293Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "005c9c47-2722-4229-9a5b-5dd51385e689",
+        "total_price": 71601,
+        "created_at": "2023-09-21T00:51:27.221Z",
+        "updated_at": "2023-09-21T02:50:31.851Z",
+        "basket_id": "34ccdf92-a8f5-46c3-a4bd-eabc08c26e80",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2aae607-73b8-4524-86be-ac4f0ee64225",
+        "total_price": 74937,
+        "created_at": "2023-09-21T03:35:49.546Z",
+        "updated_at": "2023-09-20T19:23:08.878Z",
+        "basket_id": "e567392f-89de-47a4-b54b-3400c8876956",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3e721d1-2b54-451c-8d96-958eb58432de",
+        "total_price": 50324,
+        "created_at": "2023-09-21T01:51:18.668Z",
+        "updated_at": "2023-09-21T04:06:26.624Z",
+        "basket_id": "0310da1c-a6a2-4542-bab8-aca23a894f58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88cf2c5e-cb57-43e9-8c0a-fb5c1d79d4aa",
+        "total_price": 56330,
+        "created_at": "2023-09-21T10:46:26.489Z",
+        "updated_at": "2023-09-20T15:06:58.599Z",
+        "basket_id": "aed027d8-4fcb-49c3-a2b1-941f31c43d73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ee33b4e-0cdb-43b6-82c4-8136740eba51",
+        "total_price": 64706,
+        "created_at": "2023-09-20T21:37:11.674Z",
+        "updated_at": "2023-09-21T02:53:08.314Z",
+        "basket_id": "0310da1c-a6a2-4542-bab8-aca23a894f58",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "7994b58d-173d-4a8d-95c9-6f49ad690ec1",
+        "quantity": 17809,
+        "created_at": "2023-09-21T09:03:25.454Z",
+        "updated_at": "2023-09-21T00:47:48.051Z",
+        "basket_id": "34ccdf92-a8f5-46c3-a4bd-eabc08c26e80",
+        "item_id": "609bcd64-17ab-4683-99d1-f4a281bd9015"
+      },
+      {
+        "id": "7e2da4b2-3cee-4ed1-88a9-5ddbecf67e77",
+        "quantity": 59160,
+        "created_at": "2023-09-21T00:26:00.492Z",
+        "updated_at": "2023-09-21T06:59:11.440Z",
+        "basket_id": "aed027d8-4fcb-49c3-a2b1-941f31c43d73",
+        "item_id": "d62f2051-f0e9-49b1-bca4-0d75418ac502"
+      },
+      {
+        "id": "81875dc5-8d64-482a-9543-9d303651c538",
+        "quantity": 2064,
+        "created_at": "2023-09-20T15:29:06.048Z",
+        "updated_at": "2023-09-21T05:31:52.267Z",
+        "basket_id": "e567392f-89de-47a4-b54b-3400c8876956",
+        "item_id": "5fd6e4fa-2313-40c3-871c-4649b0a0c355"
+      },
+      {
+        "id": "571ababe-f384-4fc7-9db0-217f8aaf9556",
+        "quantity": 40693,
+        "created_at": "2023-09-20T21:37:15.316Z",
+        "updated_at": "2023-09-20T18:23:49.601Z",
+        "basket_id": "8d403cd9-b378-4c7b-9270-2d1619de7d70",
+        "item_id": "d62f2051-f0e9-49b1-bca4-0d75418ac502"
+      },
+      {
+        "id": "98be7c7b-6357-4bbe-b61a-4a8e4eac3f39",
+        "quantity": 11612,
+        "created_at": "2023-09-21T04:35:46.882Z",
+        "updated_at": "2023-09-21T04:50:26.939Z",
+        "basket_id": "0310da1c-a6a2-4542-bab8-aca23a894f58",
+        "item_id": "5fd6e4fa-2313-40c3-871c-4649b0a0c355"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05fa7f03-9aa1-4b5f-b67e-5f7a7ceba37d",
+        "email": "Eunice_Schaden84@roq.tech",
+        "firstName": "Stella",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79c6b299-c61b-436a-8918-b75ebab1761b",
+        "email": "Van85@roq.tech",
+        "firstName": "Darrin",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/729.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af147fca-393d-4d99-b755-c21f097d4e74",
+        "email": "Melany8@roq.tech",
+        "firstName": "Nova",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/523.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22bb12d8-6f83-429b-ba4f-6636f4444fa0",
+        "email": "Rasheed.Rowe73@roq.tech",
+        "firstName": "Elliott",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16792168",
+        "tenantId": null
+      },
+      {
+        "reference": "02f11206-4ec8-4303-8518-d6a0f6eb4d24",
+        "email": "Louvenia_Ward37@roq.tech",
+        "firstName": "Francisco",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54649493",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "349bd89e-6e28-4397-9f74-770195125f88",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 38304,
+        "sale_price": 95032,
+        "quantity": 40385,
+        "created_at": "2023-09-21T00:29:26.951Z",
+        "updated_at": "2023-09-20T23:27:03.694Z"
+      },
+      {
+        "id": "153a191d-a7ad-4a23-bcd6-996f90a54c09",
+        "name": "Product B",
+        "category": "Clothing",
+        "purchase_price": 54233,
+        "sale_price": 57869,
+        "quantity": 15266,
+        "created_at": "2023-09-21T07:43:27.414Z",
+        "updated_at": "2023-09-20T20:15:32.749Z"
+      },
+      {
+        "id": "3170a07b-b6d2-42a6-9825-4951d29e2c82",
+        "name": "Product C",
+        "category": "Home Decor",
+        "purchase_price": 44842,
+        "sale_price": 82159,
+        "quantity": 57300,
+        "created_at": "2023-09-20T14:24:22.407Z",
+        "updated_at": "2023-09-21T06:13:53.097Z"
+      },
+      {
+        "id": "56501748-12f9-424c-83d9-8fcc97f31f25",
+        "name": "Product D",
+        "category": "Sports",
+        "purchase_price": 75211,
+        "sale_price": 6830,
+        "quantity": 5153,
+        "created_at": "2023-09-20T21:32:15.995Z",
+        "updated_at": "2023-09-21T04:00:22.186Z"
+      },
+      {
+        "id": "1288a699-8879-475e-a50e-cb61cd66f40a",
+        "name": "Product E",
+        "category": "Beauty",
+        "purchase_price": 26291,
+        "sale_price": 45604,
+        "quantity": 66365,
+        "created_at": "2023-09-20T17:09:59.764Z",
+        "updated_at": "2023-09-20T21:07:26.584Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "d7334b51-ba8b-49ae-9605-b014a170edbe",
+        "name": "Basket 1",
+        "description": "Basket for groceries",
+        "created_at": "2023-09-21T10:40:17.882Z",
+        "updated_at": "2023-09-21T12:31:30.392Z"
+      },
+      {
+        "id": "de5bf2a6-663a-4c2d-be73-44c3df318ef3",
+        "name": "Basket 2",
+        "description": "Basket for toys",
+        "created_at": "2023-09-20T18:24:50.261Z",
+        "updated_at": "2023-09-20T23:39:23.358Z"
+      },
+      {
+        "id": "46c653fa-5511-47fc-ac76-aa2fdc1534f0",
+        "name": "Basket 3",
+        "description": "Basket for books",
+        "created_at": "2023-09-21T09:25:41.726Z",
+        "updated_at": "2023-09-20T20:17:53.143Z"
+      },
+      {
+        "id": "d581279f-f125-462c-b517-3fb807a8b21a",
+        "name": "Basket 4",
+        "description": "Basket for clothes",
+        "created_at": "2023-09-20T18:39:08.149Z",
+        "updated_at": "2023-09-21T08:29:15.810Z"
+      },
+      {
+        "id": "8f13b40f-1000-4f72-bada-5afc5a6bffd6",
+        "name": "Basket 5",
+        "description": "Basket for accessories",
+        "created_at": "2023-09-20T17:44:38.411Z",
+        "updated_at": "2023-09-21T06:51:04.001Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "f9150065-a97b-4643-b78f-a33a68d750b2",
+        "total_price": 76311,
+        "created_at": "2023-09-21T10:41:20.637Z",
+        "updated_at": "2023-09-20T13:03:55.704Z",
+        "basket_id": "d581279f-f125-462c-b517-3fb807a8b21a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a7655c0-da12-4730-a4a5-8d37fa5e7c85",
+        "total_price": 5729,
+        "created_at": "2023-09-20T15:44:56.854Z",
+        "updated_at": "2023-09-20T15:51:57.503Z",
+        "basket_id": "46c653fa-5511-47fc-ac76-aa2fdc1534f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cef5b8a-e886-4cf0-9bfc-f1e0c3c0b01a",
+        "total_price": 27012,
+        "created_at": "2023-09-21T10:11:14.615Z",
+        "updated_at": "2023-09-21T12:31:25.498Z",
+        "basket_id": "de5bf2a6-663a-4c2d-be73-44c3df318ef3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aee83b6-27e7-40ac-b8dd-64c78de86436",
+        "total_price": 33809,
+        "created_at": "2023-09-21T07:16:30.506Z",
+        "updated_at": "2023-09-21T00:56:59.838Z",
+        "basket_id": "d581279f-f125-462c-b517-3fb807a8b21a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74211f3c-d6f6-4e4e-b6bf-a29c847c9095",
+        "total_price": 29728,
+        "created_at": "2023-09-20T20:13:49.353Z",
+        "updated_at": "2023-09-21T05:31:36.865Z",
+        "basket_id": "de5bf2a6-663a-4c2d-be73-44c3df318ef3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "3fb9a46f-7c48-4723-876b-dc27e1e683a2",
+        "quantity": 84369,
+        "created_at": "2023-09-21T03:50:42.161Z",
+        "updated_at": "2023-09-20T14:35:25.995Z",
+        "basket_id": "46c653fa-5511-47fc-ac76-aa2fdc1534f0",
+        "item_id": "3170a07b-b6d2-42a6-9825-4951d29e2c82"
+      },
+      {
+        "id": "0fa4abd9-4218-4665-ab3b-32f0d1bdc680",
+        "quantity": 82214,
+        "created_at": "2023-09-21T00:10:57.974Z",
+        "updated_at": "2023-09-20T14:35:37.511Z",
+        "basket_id": "46c653fa-5511-47fc-ac76-aa2fdc1534f0",
+        "item_id": "3170a07b-b6d2-42a6-9825-4951d29e2c82"
+      },
+      {
+        "id": "e37cec0a-d8b3-46db-808c-af68e2f6bc16",
+        "quantity": 62882,
+        "created_at": "2023-09-21T08:13:46.861Z",
+        "updated_at": "2023-09-20T13:37:40.390Z",
+        "basket_id": "de5bf2a6-663a-4c2d-be73-44c3df318ef3",
+        "item_id": "349bd89e-6e28-4397-9f74-770195125f88"
+      },
+      {
+        "id": "545a77b5-0bd0-4a03-9387-30fa6c41138e",
+        "quantity": 89643,
+        "created_at": "2023-09-21T08:20:34.008Z",
+        "updated_at": "2023-09-20T18:30:53.999Z",
+        "basket_id": "de5bf2a6-663a-4c2d-be73-44c3df318ef3",
+        "item_id": "56501748-12f9-424c-83d9-8fcc97f31f25"
+      },
+      {
+        "id": "24b6e941-db27-441e-bed3-58a69dfdbff2",
+        "quantity": 47755,
+        "created_at": "2023-09-21T00:06:01.557Z",
+        "updated_at": "2023-09-21T05:41:52.375Z",
+        "basket_id": "8f13b40f-1000-4f72-bada-5afc5a6bffd6",
+        "item_id": "153a191d-a7ad-4a23-bcd6-996f90a54c09"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c513e55c-9e76-4939-bcd6-84f3373815c7",
+        "email": "Jacques.Mertz@roq.tech",
+        "firstName": "Jalon",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80406870",
+        "tenantId": null
+      },
+      {
+        "reference": "244298f8-b78f-4f6a-af4d-8886496727bd",
+        "email": "Eldridge.Homenick72@roq.tech",
+        "firstName": "Davonte",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0333a10-c9ac-4995-a62c-00d2bdfd2181",
+        "email": "Eino.Goldner@roq.tech",
+        "firstName": "Marion",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46438988",
+        "tenantId": null
+      },
+      {
+        "reference": "39c96bb4-1843-46fe-8e98-fc3051e48f74",
+        "email": "Clint_Stoltenberg@roq.tech",
+        "firstName": "Doug",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7591406",
+        "tenantId": null
+      },
+      {
+        "reference": "2293fc22-b472-45e8-82df-819d7cdc8736",
+        "email": "Lesley.Lind@roq.tech",
+        "firstName": "Anastacio",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "73265aff-1f18-463e-805e-a80b74503a9e",
+        "name": "Product A",
+        "category": "Electronics",
+        "purchase_price": 70624,
+        "sale_price": 19702,
+        "quantity": 7125,
+        "created_at": "2023-09-21T08:40:15.215Z",
+        "updated_at": "2023-09-21T04:30:40.500Z"
+      },
+      {
+        "id": "d88268a2-dbc1-4327-a42e-cfaa20325d35",
+        "name": "Product B",
+        "category": "Clothing",
+        "purchase_price": 45147,
+        "sale_price": 37643,
+        "quantity": 71710,
+        "created_at": "2023-09-21T09:45:17.593Z",
+        "updated_at": "2023-09-20T17:05:04.029Z"
+      },
+      {
+        "id": "fa621015-f567-4037-b62a-5dc64064b167",
+        "name": "Product C",
+        "category": "Home decor",
+        "purchase_price": 11514,
+        "sale_price": 1240,
+        "quantity": 88624,
+        "created_at": "2023-09-21T08:48:02.099Z",
+        "updated_at": "2023-09-21T04:32:20.609Z"
+      },
+      {
+        "id": "7aca693e-d17b-4552-8634-79956a143ac3",
+        "name": "Product D",
+        "category": "Books",
+        "purchase_price": 61607,
+        "sale_price": 59811,
+        "quantity": 22942,
+        "created_at": "2023-09-21T06:27:10.082Z",
+        "updated_at": "2023-09-21T07:14:05.127Z"
+      },
+      {
+        "id": "bf150ca7-c564-4595-9a3b-c6d77e489ff5",
+        "name": "Product E",
+        "category": "Sports equipment",
+        "purchase_price": 91392,
+        "sale_price": 38434,
+        "quantity": 91931,
+        "created_at": "2023-09-21T04:19:22.571Z",
+        "updated_at": "2023-09-20T17:23:44.032Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "ce9ef3ca-5a7b-45cf-891f-c9cc9069f191",
+        "name": "Basket 1",
+        "description": "Basket for groceries",
+        "created_at": "2023-09-21T03:22:53.416Z",
+        "updated_at": "2023-09-21T05:50:17.625Z"
+      },
+      {
+        "id": "f276f988-09e3-45ad-9156-7e8d2644138c",
+        "name": "Basket 2",
+        "description": "Basket for laundry",
+        "created_at": "2023-09-21T02:23:45.077Z",
+        "updated_at": "2023-09-20T16:54:35.749Z"
+      },
+      {
+        "id": "d63016bb-462d-4fa9-b818-ad2a3b9168ac",
+        "name": "Basket 3",
+        "description": "Basket for toys",
+        "created_at": "2023-09-21T00:43:31.327Z",
+        "updated_at": "2023-09-20T19:24:26.056Z"
+      },
+      {
+        "id": "f2014d23-45b6-4c65-bdd9-c55cd324350f",
+        "name": "Basket 4",
+        "description": "Basket for gardening tools",
+        "created_at": "2023-09-20T22:24:09.388Z",
+        "updated_at": "2023-09-21T06:02:14.149Z"
+      },
+      {
+        "id": "602ca808-5ed8-45e7-8bb9-d81661524256",
+        "name": "Basket 5",
+        "description": "Basket for picnic",
+        "created_at": "2023-09-21T12:39:20.275Z",
+        "updated_at": "2023-09-20T17:03:31.729Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "9cf931f3-cc2f-4df9-890b-e261a0c7ce0a",
+        "total_price": 27798,
+        "created_at": "2023-09-21T08:22:52.431Z",
+        "updated_at": "2023-09-20T13:04:18.404Z",
+        "basket_id": "602ca808-5ed8-45e7-8bb9-d81661524256",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f07a3608-700c-4112-9a26-1d89cb0bce8b",
+        "total_price": 49136,
+        "created_at": "2023-09-20T20:28:48.713Z",
+        "updated_at": "2023-09-21T10:16:49.245Z",
+        "basket_id": "d63016bb-462d-4fa9-b818-ad2a3b9168ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28e7469f-c40b-455b-b575-b251b08426b9",
+        "total_price": 37361,
+        "created_at": "2023-09-20T23:55:37.485Z",
+        "updated_at": "2023-09-20T19:01:46.642Z",
+        "basket_id": "f276f988-09e3-45ad-9156-7e8d2644138c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a4e04bc-da6d-4d57-819d-4db13162d81d",
+        "total_price": 17469,
+        "created_at": "2023-09-21T01:38:45.333Z",
+        "updated_at": "2023-09-21T06:56:40.206Z",
+        "basket_id": "d63016bb-462d-4fa9-b818-ad2a3b9168ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c11befb-76ea-49e1-b326-50e690142a35",
+        "total_price": 10639,
+        "created_at": "2023-09-20T23:38:59.330Z",
+        "updated_at": "2023-09-21T11:24:21.576Z",
+        "basket_id": "ce9ef3ca-5a7b-45cf-891f-c9cc9069f191",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "c2c3e802-557b-4a4c-bc55-a93d086ea7af",
+        "quantity": 9374,
+        "created_at": "2023-09-20T21:05:11.308Z",
+        "updated_at": "2023-09-21T10:11:49.971Z",
+        "basket_id": "602ca808-5ed8-45e7-8bb9-d81661524256",
+        "item_id": "d88268a2-dbc1-4327-a42e-cfaa20325d35"
+      },
+      {
+        "id": "3eecaec0-9b87-443a-babc-13634f6eec16",
+        "quantity": 80304,
+        "created_at": "2023-09-21T07:30:50.072Z",
+        "updated_at": "2023-09-21T07:04:43.687Z",
+        "basket_id": "f276f988-09e3-45ad-9156-7e8d2644138c",
+        "item_id": "fa621015-f567-4037-b62a-5dc64064b167"
+      },
+      {
+        "id": "bec40b59-9bc0-4e7d-b5cc-3b5cbcab4799",
+        "quantity": 39062,
+        "created_at": "2023-09-21T04:04:29.835Z",
+        "updated_at": "2023-09-21T08:51:14.014Z",
+        "basket_id": "602ca808-5ed8-45e7-8bb9-d81661524256",
+        "item_id": "bf150ca7-c564-4595-9a3b-c6d77e489ff5"
+      },
+      {
+        "id": "c785f119-7010-4f7f-8996-d4c670c50f90",
+        "quantity": 33246,
+        "created_at": "2023-09-21T12:24:22.739Z",
+        "updated_at": "2023-09-21T08:42:10.124Z",
+        "basket_id": "f2014d23-45b6-4c65-bdd9-c55cd324350f",
+        "item_id": "fa621015-f567-4037-b62a-5dc64064b167"
+      },
+      {
+        "id": "94229a0a-5dda-4c1e-92e3-8ada22400e6e",
+        "quantity": 31541,
+        "created_at": "2023-09-20T15:29:02.758Z",
+        "updated_at": "2023-09-21T03:33:34.379Z",
+        "basket_id": "f276f988-09e3-45ad-9156-7e8d2644138c",
+        "item_id": "73265aff-1f18-463e-805e-a80b74503a9e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "821208b4-ece5-4262-9ea6-3d7a0c22939e",
+        "email": "Marjolaine78@roq.tech",
+        "firstName": "Philip",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/367.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7aa74096-48e4-4e4b-8abc-f1384ee7f212",
+        "email": "Dejon.Bauch@roq.tech",
+        "firstName": "Casimir",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92237484",
+        "tenantId": null
+      },
+      {
+        "reference": "5140d685-fbd4-46aa-baac-f33ee33cac8d",
+        "email": "Garret.Gleichner@roq.tech",
+        "firstName": "Jalon",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22442197",
+        "tenantId": null
+      },
+      {
+        "reference": "b3aca895-90eb-4713-ae05-efe6e97fbc01",
+        "email": "Dameon14@roq.tech",
+        "firstName": "Justus",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "744d6855-3826-48e8-91a6-feb89c5aec14",
+        "email": "Jaycee.Prosacco@roq.tech",
+        "firstName": "Zachariah",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/298.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "item": [
+      {
+        "id": "dcf16234-4bd3-4351-bf02-763f94570ff4",
+        "name": "Item 1",
+        "category": "Category A",
+        "purchase_price": 71641,
+        "sale_price": 34932,
+        "quantity": 74293,
+        "created_at": "2023-09-21T08:17:12.060Z",
+        "updated_at": "2023-09-21T07:49:49.385Z"
+      },
+      {
+        "id": "4f1fc5a1-42b0-4d25-8377-63d98a7f87d3",
+        "name": "Item 2",
+        "category": "Category B",
+        "purchase_price": 42636,
+        "sale_price": 83869,
+        "quantity": 93209,
+        "created_at": "2023-09-20T15:08:13.954Z",
+        "updated_at": "2023-09-21T10:26:32.612Z"
+      },
+      {
+        "id": "a7c8afbb-469c-4040-957a-a53ce681b116",
+        "name": "Item 3",
+        "category": "Category C",
+        "purchase_price": 66977,
+        "sale_price": 23076,
+        "quantity": 29155,
+        "created_at": "2023-09-21T12:28:34.089Z",
+        "updated_at": "2023-09-21T03:03:48.813Z"
+      },
+      {
+        "id": "c2467462-9978-438a-91bd-bd7703dbddd7",
+        "name": "Item 4",
+        "category": "Category D",
+        "purchase_price": 21057,
+        "sale_price": 35963,
+        "quantity": 82368,
+        "created_at": "2023-09-21T10:48:30.451Z",
+        "updated_at": "2023-09-20T22:27:09.631Z"
+      },
+      {
+        "id": "1f435825-9867-483a-8d1e-ebb1657f84ad",
+        "name": "Item 5",
+        "category": "Category E",
+        "purchase_price": 86646,
+        "sale_price": 91262,
+        "quantity": 84862,
+        "created_at": "2023-09-20T16:28:05.260Z",
+        "updated_at": "2023-09-21T03:40:46.137Z"
+      }
+    ],
+    "basket": [
+      {
+        "id": "85438205-371a-47ec-9c08-4162d733c717",
+        "name": "Basket 1",
+        "description": "Basket for fruits",
+        "created_at": "2023-09-21T11:06:39.569Z",
+        "updated_at": "2023-09-20T19:37:31.918Z"
+      },
+      {
+        "id": "8a846a62-723c-49b4-906e-b3cfeb61998c",
+        "name": "Basket 2",
+        "description": "Basket for vegetables",
+        "created_at": "2023-09-21T06:31:46.824Z",
+        "updated_at": "2023-09-20T14:11:30.233Z"
+      },
+      {
+        "id": "3e4ca52b-fc36-457f-abbf-0b9efab3d5e1",
+        "name": "Basket 3",
+        "description": "Basket for snacks",
+        "created_at": "2023-09-21T05:08:48.092Z",
+        "updated_at": "2023-09-21T05:46:53.857Z"
+      },
+      {
+        "id": "d497e338-fc39-4c3f-b1cb-3360bdbaa615",
+        "name": "Basket 4",
+        "description": "Basket for beverages",
+        "created_at": "2023-09-21T04:55:28.076Z",
+        "updated_at": "2023-09-20T14:37:38.392Z"
+      },
+      {
+        "id": "34ef1681-d3c9-4acf-a6df-65462f248eca",
+        "name": "Basket 5",
+        "description": "Basket for toiletries",
+        "created_at": "2023-09-21T03:15:13.341Z",
+        "updated_at": "2023-09-21T02:24:47.829Z"
+      }
+    ],
+    "sales": [
+      {
+        "id": "2f30c214-842f-4067-9269-b03d44ee77d4",
+        "total_price": 23037,
+        "created_at": "2023-09-20T22:13:29.791Z",
+        "updated_at": "2023-09-21T02:59:03.595Z",
+        "basket_id": "85438205-371a-47ec-9c08-4162d733c717",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a8d3d58-e1e4-4b25-9d31-97e1f370e126",
+        "total_price": 54436,
+        "created_at": "2023-09-20T23:11:55.405Z",
+        "updated_at": "2023-09-20T22:40:06.033Z",
+        "basket_id": "85438205-371a-47ec-9c08-4162d733c717",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58d8e916-57db-4249-b992-48076168bb9e",
+        "total_price": 17689,
+        "created_at": "2023-09-21T03:55:35.249Z",
+        "updated_at": "2023-09-21T11:19:39.212Z",
+        "basket_id": "34ef1681-d3c9-4acf-a6df-65462f248eca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1777c71f-3004-42f9-adea-1d93aa61b900",
+        "total_price": 87225,
+        "created_at": "2023-09-21T00:15:04.743Z",
+        "updated_at": "2023-09-21T04:09:40.951Z",
+        "basket_id": "8a846a62-723c-49b4-906e-b3cfeb61998c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da677653-a87d-45e7-852b-8dbc299855fe",
+        "total_price": 9937,
+        "created_at": "2023-09-21T12:48:30.735Z",
+        "updated_at": "2023-09-21T12:46:32.634Z",
+        "basket_id": "d497e338-fc39-4c3f-b1cb-3360bdbaa615",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "basket_item": [
+      {
+        "id": "b727c618-68d1-441c-ac86-5f732e1be409",
+        "quantity": 63063,
+        "created_at": "2023-09-20T17:34:40.846Z",
+        "updated_at": "2023-09-20T17:40:55.675Z",
+        "basket_id": "34ef1681-d3c9-4acf-a6df-65462f248eca",
+        "item_id": "c2467462-9978-438a-91bd-bd7703dbddd7"
+      },
+      {
+        "id": "26c36ea3-f4c3-43bf-903a-218cfbbb051f",
+        "quantity": 22411,
+        "created_at": "2023-09-20T13:12:18.262Z",
+        "updated_at": "2023-09-20T22:06:53.204Z",
+        "basket_id": "d497e338-fc39-4c3f-b1cb-3360bdbaa615",
+        "item_id": "a7c8afbb-469c-4040-957a-a53ce681b116"
+      },
+      {
+        "id": "8017114f-f8e8-43ff-89d9-73fbbde686a1",
+        "quantity": 48039,
+        "created_at": "2023-09-20T15:21:49.256Z",
+        "updated_at": "2023-09-20T21:54:10.298Z",
+        "basket_id": "8a846a62-723c-49b4-906e-b3cfeb61998c",
+        "item_id": "a7c8afbb-469c-4040-957a-a53ce681b116"
+      },
+      {
+        "id": "69d9d0c0-35f4-4abe-823e-f8c4765086b0",
+        "quantity": 20525,
+        "created_at": "2023-09-20T15:36:20.907Z",
+        "updated_at": "2023-09-20T18:52:50.908Z",
+        "basket_id": "3e4ca52b-fc36-457f-abbf-0b9efab3d5e1",
+        "item_id": "a7c8afbb-469c-4040-957a-a53ce681b116"
+      },
+      {
+        "id": "d1058cf5-291a-4faa-af2c-cb8165bb3815",
+        "quantity": 29813,
+        "created_at": "2023-09-21T06:22:56.287Z",
+        "updated_at": "2023-09-20T13:40:33.205Z",
+        "basket_id": "d497e338-fc39-4c3f-b1cb-3360bdbaa615",
+        "item_id": "4f1fc5a1-42b0-4d25-8377-63d98a7f87d3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b25330b1-3898-4b4b-98c3-9089c20fdf67",
+        "email": "Iliana_Parker75@roq.tech",
+        "firstName": "Harry",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1181.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5bdfad0-5405-4b0e-8e5b-23598a62bf38",
+        "email": "Assunta69@roq.tech",
+        "firstName": "Kariane",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/976.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de92008f-7fdb-4d08-b6d9-80d2c2256784",
+        "email": "Zora_Nicolas@roq.tech",
+        "firstName": "Ellis",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45584565",
+        "tenantId": null
+      },
+      {
+        "reference": "9c2558b0-6e78-4a01-81f7-00e2499dbc30",
+        "email": "Claudine.Ledner97@roq.tech",
+        "firstName": "Gonzalo",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8835fa60-b5d1-4fcf-8dc0-9d7eca252c35",
+        "email": "Judah_Paucek43@roq.tech",
+        "firstName": "Brooks",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28550400",
+        "tenantId": null
+      }
+    ]
+  }
+]
